@@ -1,0 +1,257 @@
+/* *****desktop view***** */
+#Group {
+    width: 1255.1038818359375;
+    height: 337;
+    
+    opacity: 1;
+    top: 1907px;
+    left: 94px;
+    color: #000000;
+
+}
+
+#WhyChooseUs {
+    width: 345;
+    height: 57;
+   
+    opacity: 1;
+    top: 1907px;
+    left: 527px;
+    font-family: Abhaya Libre;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 48px;
+  
+    line-height: 100%;
+    letter-spacing: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#WhyChooseUspoints>li {
+    font-family: Be Vietnam;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 24px;
+    
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+#Quality_Materials {
+    width: 1253.9990234375;
+    height: 85;
+    
+    opacity: 1;
+    top: 1936px;
+    left: 94px;
+}
+
+#Customization {
+    width: 1253.9990234375;
+    height: 80;
+    
+    opacity: 1;
+    top: 2016px;
+    left: 95.1px;
+}
+
+#Expertise {
+    width: 1253.9990234375;
+    height: 86;
+ 
+    opacity: 1;
+    top: 2100px;
+    left: 94px;
+}
+
+#Customer_Satisfaction {
+    width: 1253.9990234375;
+    height: 69;
+    
+    opacity: 1;
+    top: 2175px;
+    left: 94px;
+}
+
+@media screen and (min-width:600px)and (max-width: 900px) {
+
+    /* *****tab view***** */
+    #Group {
+        width: 917;
+        height: 412;
+        top: 1562px;
+        left: 53px;
+        
+        opacity: 1;
+        color: #000000;
+
+    }
+
+    #WhyChooseUs {
+
+        width: 322;
+        height: 57;
+       
+        opacity: 1;
+        top: 1562px;
+        left: 351px;
+        font-family: Abhaya Libre;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 48px;
+        
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #000000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #WhyChooseUspoints {
+        width: 917;
+        height: 371;
+        top: 1603px;
+        left: 53px;
+       
+        opacity: 1;
+        color: #000000;
+
+    }
+
+    #WhyChooseUspoints>li {
+        font-family: Be Vietnam;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 24px;
+        
+        line-height: 100%;
+        letter-spacing: 0%;
+    }
+
+
+    #Quality_Materials {
+        width: 917;
+        height: 140;
+       
+        opacity: 1;
+        top: 1603px;
+        left: 53px;
+
+    }
+
+    #Customization {
+        width: 893.2130737304688;
+        height: 70;
+       
+        opacity: 1;
+        top: 1708px;
+        left: 55px;
+
+    }
+
+    #Expertise {
+        width: 893.2130737304688;
+        height: 84.21365356445312;
+      
+        opacity: 1;
+        top: 1785px;
+        left: 53px;
+
+    }
+
+    #Customer_Satisfaction {
+        width: 893.2130737304688;
+        height: 105;
+      
+        opacity: 1;
+        top: 1869px;
+        left: 53px;
+
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    /* *****mobile view***** */
+    #Group {
+        width: 341;
+        height: 179;
+      
+        opacity: 1;
+        top: 954px;
+        left: 11px;
+        color: #000000;
+    }
+
+    #WhyChooseUs {
+        width: 134;
+        height: 24;
+       
+        opacity: 1;
+        top: 954px;
+        left: 114px;
+        font-family: Abhaya Libre;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 20px;
+      
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #000000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #WhyChooseUspoints>li {
+        font-family: Be Vietnam;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 10px;
+     
+        line-height: 100%;
+        letter-spacing: 0%;
+
+    }
+
+    #Quality_Materials {
+        width: 314.02825927734375;
+        height: 56;
+        
+        opacity: 1;
+        top: 966px;
+        left: 11px;
+    }
+
+    #Customization {
+        width: 341;
+        height: 15;
+     
+        opacity: 1;
+        top: 1014px;
+        left: 11px;
+    }
+
+    #Expertise {
+        width: 320.77117919921875;
+        height: 30;
+        
+        opacity: 1;
+        top: 1046px;
+        left: 11px;
+    }
+
+    #Customer_Satisfaction {
+        width: 328.4773864746094;
+        height: 40;
+        
+        opacity: 1;
+        top: 1093px;
+        left: 11px;
+    }
+}
