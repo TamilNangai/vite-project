@@ -1,0 +1,14 @@
+#flex-container{
+display: flex;
+/* flex-direction: row; */
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: baseline;
+align-self: center;
+
+}
+.flex-item {
+  flex: 1 0 20%; /* Each item takes up 25% of the row (100% / 4 = 25%) */
+  box-sizing: border-box; /* Ensures padding and borders are included in the width */
+  padding: 30px; /* Optional: Adds spacing between items */
+}
