@@ -1,5 +1,5 @@
 import "./Viewmore.css"
-import Nextpage from "./vite-project/src/viewmore.png"
+import Nextpage from "./assets/Viewmore.png"
 function Viewmore() {
     return (
         <div>
