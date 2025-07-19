@@ -1,0 +1,112 @@
+/* *****desktop view***** */
+body{
+    margin: 5px;
+    display: flex;   
+    flex-direction: row;
+    justify-content: flex-end;    
+    align-items: flex-start;
+}
+#Group {
+    width: 148px;
+    height: 44px;
+    top: 1596px !important;
+    left: 1192px !important;
+    opacity: 1;
+    border: 1px solid #000000;
+    border-radius: 33px;
+    border-width: 1px;
+    background: #0753EDD4;
+    display: flex;
+    float: right;
+    padding: 0px;
+
+}
+
+.Viewmoreimage {
+    width: 31px;
+    height: 31px;
+    top: 1602px;
+    left: 1303px;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+}
+
+#ViewmoreText {
+    width: 98px;
+    height: 43px;
+    top: 1601px;
+    left: 1201px;
+    opacity: 1;
+    font-family: Be Vietnam;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: #000000;
+    display: flex;
+    float: left;
+    align-items: center;
+    margin-left: 7px;
+}
+
+
+@media screen and (min-width:600px)and (max-width: 900px) {
+
+    /* *****tab view***** */
+
+    #Group {
+        width: 114.78800964355469px;
+        height: 34.126163482666016px;
+        top: 1305px;
+        left: 840px;
+        opacity: 1;
+        border: 0.78px solid #000000;
+        border-radius: 25.59px;
+        background: #0753EDD4;
+    }
+
+    .Viewmoreimage {
+        width: 24.043434143066406px;
+        height: 24.043434143066406px;
+        top: 1309.65px;
+        left: 926.09px;
+        opacity: 1;
+        display: flex;
+        align-items: center;
+        margin-top: 5px;
+    }
+
+    #ViewmoreText {
+        width: 76px;
+        height: 23px;
+        position: relative;
+        top: 1308.88px;
+        left: 846.98px;
+        opacity: 1;
+        font-family: Be Vietnam;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 15.51px;
+        line-height: 100%;
+        letter-spacing: 0;
+        color: #000000;
+        display: flex;
+        float: left;
+        align-items: center;
+        margin-top: 5px;
+
+
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+
+    /* *****mobile view***** */
+    #Group {
+        display: none;
+    }
+}
