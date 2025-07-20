@@ -1,14 +1,104 @@
-#flex-container{
-display: flex;
-/* flex-direction: row; */
-flex-wrap: wrap;
-justify-content: space-around;
-align-items: baseline;
-align-self: center;
+ @media screen and (min-width:820px)and (max-width: 1920px) {
 
-}
-.flex-item {
-  flex: 1 0 20%; /* Each item takes up 25% of the row (100% / 4 = 25%) */
-  box-sizing: border-box; /* Ensures padding and borders are included in the width */
-  padding: 30px; /* Optional: Adds spacing between items */
-}
+     /******desktop view******/
+
+     #flex-containerT {
+         display: none;
+     }
+
+     #flex-containerM {
+         display: none;
+     }
+
+     #flex-containerD {
+         width: 1500px;
+         height: 650px;
+         top: 955px;
+         left: 96px;
+         opacity: 1;
+         display: flex;
+         flex-wrap: wrap;
+
+
+     }
+
+     .flex-item {
+         width: 200px;
+         height: 180px;
+         top: 1172px;
+         left: 1140px;
+         opacity: 1;
+         border-radius: 17px;
+         flex: 1 0 20%;
+         box-sizing: border-box;
+         padding: 20px;
+     }
+
+ }
+
+ @media screen and (min-width:412px)and (max-width: 820px) {
+
+     /* *****tab view***** */
+
+
+     #flex-containerD {
+         display: none;
+     }
+
+     #flex-containerM {
+         display: none;
+     }
+
+
+     #flex-containerT {
+         top: 550px;
+         left: 36px;
+         opacity: 1;
+         display: flex;
+         flex-wrap: wrap;
+
+     }
+
+     .flex-item {
+         width: 142.6044921875px;
+         height: 120px;
+         opacity: 1;
+         border-radius: 17px;
+         flex: 1 0 17%;
+         box-sizing: border-box;
+         margin: 5px;
+     }
+
+ }
+
+ @media screen and (min-width: 360px) and (max-width: 412px) {
+
+     /* *****mobile view***** */
+
+
+     #flex-containerD {
+         display: none;
+     }
+
+     #flex-containerT {
+         display: none;
+     }
+
+
+     #flex-containerM {
+
+         top: 518px;
+         left: 20px;
+         opacity: 1;
+         display: flex;
+         flex-wrap: wrap;
+
+     }
+
+     .flex-item {
+
+         box-sizing: border-box;
+         margin: 12px;
+     }
+
+ }
