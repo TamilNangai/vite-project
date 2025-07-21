@@ -1,0 +1,291 @@
+body {
+    height: 700px;
+    width: 1300px;
+   
+    background-color:  #FFFFFF;
+
+}
+
+#container {
+
+    height: 700px;
+    width: 1300px;
+    top: 2258px;
+    left: 148px;
+    opacity: 1;
+}
+
+#container-items {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#conducthead {
+    position: relative;
+    top: 22px;
+    left: 500px;
+    opacity: 1;
+    font-family: Abhaya Libre;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    padding-bottom: 30px;
+    display: block
+}
+
+#officecontainer {
+    position: relative;
+    width: 416px;
+    height: 388px;
+    top: 100px;
+    opacity: 1;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#officehead {
+    position: relative;
+    width: 285px;
+    height: 47px;
+    bottom: 20px;
+    opacity: 1;
+    font-family: Abhaya Libre;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+#officecontainer>ul {
+    list-style-type: none;
+}
+
+#phone {
+    position: relative;
+    left: 50px;
+    width: 186px;
+    height: 70px;
+    opacity: 1;
+    display: flex;
+}
+
+#number {
+    position: relative;
+    top: 20px;
+    left: 10px;
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+#email {
+    position: relative;
+    left: 50px;
+    width: 314px;
+    height: 70px;
+    opacity: 1;
+    display: flex;
+}
+
+#emailid {
+    position: relative;
+    top: 20px;
+    left: 10px;
+    font-family: Be Vietnam;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+#address {
+    position: relative;
+    left: 50px;
+    width: 265px;
+    height: 158px;
+    display: flex;
+}
+
+#add {
+    position: relative;
+    top: 20px;
+    left: 10px;
+    opacity: 1;
+    color: #000000;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+
+#chatcontainer {
+    position: relative;
+    width: 597px;
+    height: 582px;
+    top: 35px;
+    left: 90px;
+    opacity: 1;
+    border-radius: 52px;
+    background: #D9D9D9;
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: end;
+    float: right; */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 30px;
+
+}
+
+#chatcontainer-items {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 50px;
+}
+
+#chathead {
+    /* width: 290.3519287109375px; */
+    height: 59px;
+    top: 20px;
+    left: 50px;
+    opacity: 1;
+    font-family: Abhaya Libre;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 50px;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: #000000;
+    position: relative;
+}
+
+#image {
+    float: right;
+    margin-right: 20px;
+    width: 211px;
+    height: 390px;
+    opacity: 1;
+    border-radius: 32.26px;
+    background: #000000;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+#image>div {
+    width: 190px;
+    height: 82px;
+    opacity: 1;
+    font-family: Be Vietnam;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 100%;
+    text-align: right;
+    color: #FFFFFF;
+    display: contents;
+}
+
+#para2 {
+    position: relative;
+    width: 186px;
+    height: 88px;
+    bottom: 10px;
+    opacity: 1;
+    font-family: Be Vietnam;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    display: contents;
+}
+
+#image>img {
+    position: relative;
+    width: 146px;
+    height: 162px;
+    opacity: 1;
+}
+
+#name1,
+#name2 {
+    width: 151px;
+    height: 35px;
+    top: 40px;
+    left: 14px;
+    opacity: 1;
+    border-radius: 9px;
+    border-width: 1px;
+    background: #D9D9D991;
+    border: 1px solid #000000;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    margin: 20px 20px 20px 0px;
+}
+
+#name1:hover,
+#name2:hover,
+#chatemail:hover,
+#num:hover,
+#chatadd:hover,
+#pin:hover,
+#message:hover,
+#formproduct:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+#chatemail,
+#num,
+#chatadd,
+#pin,
+#message,
+#formproduct {
+    width: 326px;
+    height: 35px;
+    top: 40px;
+    left: 14px;
+    opacity: 1;
+    border-radius: 9px;
+    border-width: 1px;
+    background: #D9D9D991;
+    border: 1px solid #000000;
+    margin: 0px 0px 20px 0px;
+    color: #000000;
+}
+
+input::placeholder {
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    padding: 5px;
+}
