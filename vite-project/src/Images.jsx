@@ -56,7 +56,7 @@ import Msixteen from "./assets/imageMv/i16.png"
 function Images() {
   return (
 
-    <>
+    <div id="container">
       <div id="flex-containerD">
         <div class="flex-item"><img src={Done} alt="i1" /></div>
         <div class="flex-item"><img src={Dtwo} alt="i2" /></div>
@@ -119,7 +119,7 @@ function Images() {
 
 
       </div>
-    </>
+    </div>
   )
 }
 

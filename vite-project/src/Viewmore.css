@@ -5,12 +5,17 @@ body{
     flex-direction: row;
     justify-content: flex-end;    
     align-items: flex-start;
+   
+    background-color:  #FFFFFF;
+   
+
 }
-#Group {
+/*  */
+#GroupVm {
     width: 148px;
     height: 44px;
-    top: 1596px !important;
-    left: 1192px !important;
+    /* top: 1596px !important; */
+    /* left: 1192px !important; */
     opacity: 1;
     border: 1px solid #000000;
     border-radius: 33px;
@@ -19,7 +24,11 @@ body{
     display: flex;
     float: right;
     padding: 0px;
-
+    
+     position: relative;
+     /* right:100px; */
+right:50px;
+/* margin: 50px; */
 }
 
 .Viewmoreimage {
@@ -57,7 +66,7 @@ body{
 
     /* *****tab view***** */
 
-    #Group {
+    #GroupVm {
         width: 114.78800964355469px;
         height: 34.126163482666016px;
         top: 1305px;
@@ -106,7 +115,7 @@ body{
 @media screen and (max-width: 600px) {
 
     /* *****mobile view***** */
-    #Group {
+    #GroupVm {
         display: none;
     }
 }

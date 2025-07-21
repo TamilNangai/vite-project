@@ -2,7 +2,9 @@
 
     /******desktop view******/
     body {
-        /* background-color:transparent; */
+        
+    background-color:  #FFFFFF;
+
         width: 1440px;
         height: 539px;
     }

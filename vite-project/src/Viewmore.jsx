@@ -2,8 +2,8 @@ import "./Viewmore.css"
 import Nextpage from "./assets/Viewmore.png"
 function Viewmore() {
     return (
-        <div>
-        <button id='Group'>
+        <div id="container">
+        <button id='GroupVm'>
             <span id="ViewmoreText">View More</span>
             <img className="Viewmoreimage " src={Nextpage} alt="nextpage"/>
         </button>
